@@ -1,0 +1,20 @@
+{
+  "name": "simple-node-mvc-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "stylus src/styles/index.styl -o public/css",
+    "watch": "stylus -w src/styles/index.styl -o public/css -c && nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Ivan Zaharchenko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "morgan": "^1.7.0",
+    "yamljs": "^0.2.7"
+  }
+}

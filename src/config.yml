@@ -1,0 +1,7 @@
+scope:
+  title: "Hello World!"
+  author: "Ivan Zaharchenko"
+
+routes:
+  home:  { path: "/", controller: "index" }
+  about: { path: "/about", controller: "about" }

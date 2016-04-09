@@ -1,0 +1,15 @@
+{
+  "verbose": true,
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "execMap": {
+    "js": "node --harmony"
+  },
+  "watch": [
+    "test/fixtures/",
+    "test/samples/"
+  ],
+  "ext": "js json"
+}
